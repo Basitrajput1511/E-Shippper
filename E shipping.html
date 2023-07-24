@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E Shipper</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Css File -->
+  <link rel="stylesheet" href="/E shiper.css">
+</head>
+
+<body>
+  <div class="body.container">
+    <div class="Box-1d">
+      <div class="box1-item">
+        <a href="#">FAQs</a>
+        <span> |&nbsp; </span>
+        <a href="#">Help</a>
+        <span> |&nbsp; </span>
+        <a href="#">Support</a>
+      </div>
+      <div class="box2-item">
+        <a href="#" style="margin-right: 10px;"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" style="margin-right: 10px;"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#" style="margin-right: 10px;"> <i class="fab fa-linkedin-in"></i></a>
+        <a href="#" style="margin-right: 10px;"> <i class="fab fa-instagram"></i></a>
+        <a href="#" style="margin-right: 10px;"> <i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+    <!--  -->
+    <div class="Box-2d">
+      <div class="e-main">
+        <div class="e-shoppor">
+          <a href="#" style="text-decoration: none;">
+            <h1 class="head1"><span class="span1">E</span>Shopper</h1>
+          </a>
+        </div>
+      </div>
+      <div>
+        <div>
+          <input class="input-style" type="text" placeholder="Search for products">
+          <!-- <div> -->
+          <span class="input-span"><i class="fa fa-search"></i></span>
+          <!-- </div> -->
+        </div>
+      </div>
+      <div class="ab">
+        <a href="" class="btn-border1">
+          <i style="color: rgb(251, 133, 153);" class="fas fa-heart text-primary"></i>
+          <span class="span-icon">0</span>
+        </a>
+        <a href="" class="btn-border2">
+          <i style="color: rgb(251, 133, 153);" class="fas fa-shopping-cart text-primary"></i>
+          <span class="span-icon">0</span>
+        </a>
+      </div>
+
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div>
+      <div class="main-navbar">
+        <div class="context-nav">
+          <nav class="nav-main">
+            <a href="#" class="nav-item nav-link1" id="catagory_btn" style=>Categories </a>
+            <div class="catagories_child" id="catagories_child">
+              <a href="#" class="nav-item nav-link">Shirts</a>
+              <a href="#" class="nav-item nav-link">Jeans</a>
+              <a href="#" class="nav-item nav-link">Swimwear</a>
+              <a href="#" class="nav-item nav-link">Sleepwear</a>
+              <a href="#" class="nav-item nav-link">Sportswear</a>
+              <a href="#" class="nav-item nav-link">Jumpsuits</a>
+              <a href="#" class="nav-item nav-link">Blazers</a>
+              <a href="#" class="nav-item nav-link">Jackets</a>
+              <a href="#" class="nav-item nav-link">Shoes</a>
+            </div>
+          </nav>
+        </div>
+        <div class="navmain-hr">
+          <a href="#" class="nav-hr1">Home</a>
+          <a href="#" class="nav-hr">Shop</a>
+          <a href="#" class="nav-hr">Shop Deatail</a>
+          <a href="#" class="nav-hr">Page</a>
+          <a href="#" class="nav-hr">Contact</a>
+
+        </div>
+
+        <div class="login">
+          <a href="" class="nav-it">Login</a>&nbsp;
+          <a href="" class="nav-it">Register</a>
+
+        </div>
+      </div>
+      <div class="imgh">
+        <h4 class="imgh2">10% OFF YOUR FIRST ORDER </h4>
+        <h3 class="imgh3">Reasonable Price </h3>
+        <a class="imgh4" href="#" class="">Shop Now</a>
+      </div>
+
+    </div>
+    <!-- Navbar End -->
+    <br>
+    <br>
+    <!-- Featured Start -->
+    <div>
+      <div class="Featured">
+        <div class="featured-item1">
+          <i style="color:rgb(251, 115, 137); font-size:45px;" class="fa-solid fa-check"></i>
+          <h5>Quality Product </h5>
+        </div>
+        <div class="featured-item2">
+          <i style="color:rgb(251, 115, 137); font-size:40px;" class="fa fa-shipping-fast"></i>
+          <h5>Free Shipping </h5>
+        </div>
+        <div class="featured-item3">
+          <i style="color:rgb(251, 115, 137); font-size:35px;" class="fas fa-exchange"></i>
+          <h5>14-Day Return</h5>
+        </div>
+        <div class="featured-item4">
+          <i style="color:rgb(251, 115, 137); font-size:35px;" class="fa fa-phone-volume"></i>
+          <h5>24/7 Support </h5>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+  </div>
+
+  <script>
+    const catagory_btn = document.getElementById("catagory_btn");
+    const catagories_child = document.getElementById("catagories_child");
+
+    catagory_btn.addEventListener('click' , () => {
+      if(catagories_child.style.display === "none"){
+        catagories_child.style.display = "block"
+      }
+      else{
+        catagories_child.style.display = "none"
+      }
+    })
+    
+  </script>
+</body>
+
+</html>
